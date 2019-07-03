@@ -1,0 +1,45 @@
+{
+  "name": "react-native-aliyun-playview",
+  "version": "1.0.0",
+  "description": "阿里云点播组件的封装",
+  "main": "src/AliyunPlayView.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bozaigao/react-native-aliyun-playview.git"
+  },
+  "keywords": [
+    "barcode",
+    "camera",
+    "code",
+    "native",
+    "qr",
+    "react",
+    "react-native",
+    "rncamera",
+    "video-shooting"
+  ],
+  "author": {
+    "name": "bozaigao",
+    "email": "1054539528@qq.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bozaigao/react-native-aliyun-playview/issues"
+  },
+  "dependencies": {
+    "@types/lodash.debounce": "4.0.3",
+    "@types/prop-types": "15.5.2",
+    "@types/react": "16.4.7",
+    "@types/react-native": "0.49.5",
+    "lodash.debounce": "4.0.8",
+    "prop-types": "15.5.8",
+    "ts-object-utils": "0.0.5"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "4.0.3",
+    "@types/prop-types": "15.5.2",
+    "@types/react": "16.4.7",
+    "@types/react-native": "0.49.5"
+  },
+  "homepage": "https://github.com/bozaigao/react-native-aliyun-playview#readme"
+}

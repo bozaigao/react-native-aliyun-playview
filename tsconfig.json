@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "module":"es2015",
+    "removeComments": true,
+    "target":"es2015",
+    "jsx":"react-native",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "watch": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./"
+  ],
+  "exclude": [
+    "__tests__",
+    "node_modules"
+  ]
+}
