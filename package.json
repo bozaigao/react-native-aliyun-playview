@@ -8,15 +8,10 @@
     "url": "git+https://github.com/bozaigao/react-native-aliyun-playview.git"
   },
   "keywords": [
-    "barcode",
-    "camera",
-    "code",
+    "aliyun",
+    "video",
     "native",
-    "qr",
-    "react",
-    "react-native",
-    "rncamera",
-    "video-shooting"
+    "react-native-aliyun-playview"
   ],
   "author": {
     "name": "bozaigao",
