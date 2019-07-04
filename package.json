@@ -1,26 +1,39 @@
 {
-  "name": "react-native-aliyun-playview",
-  "version": "1.0.2",
-  "description": "阿里云点播组件的封装",
-  "main": "src/AliyunPlayView.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bozaigao/react-native-aliyun-playview.git"
+  "_from": "react-native-aliyun-playview",
+  "_id": "react-native-aliyun-playview@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-a1hp1GwbDNT/vUeLnMJmoZJSjWblNF9PI9qY41k5cBNugQOOFmY5VPYz5se08JUtb8CN86C4SHUK+qfzRyhYXQ==",
+  "_location": "/react-native-aliyun-playview",
+  "_phantomChildren": {
+    "csstype": "2.6.5",
+    "fbjs": "0.8.17"
   },
-  "keywords": [
-    "aliyun",
-    "video",
-    "native",
-    "react-native-aliyun-playview"
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-aliyun-playview",
+    "name": "react-native-aliyun-playview",
+    "escapedName": "react-native-aliyun-playview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
+  "_resolved": "https://registry.npmjs.org/react-native-aliyun-playview/-/react-native-aliyun-playview-1.0.2.tgz",
+  "_shasum": "0763d0dccef457f33a5b2b856d733d726ec87ea7",
+  "_spec": "react-native-aliyun-playview",
+  "_where": "/Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser",
   "author": {
     "name": "bozaigao",
     "email": "1054539528@qq.com"
   },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/bozaigao/react-native-aliyun-playview/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@types/lodash.debounce": "4.0.3",
     "@types/prop-types": "15.5.2",
@@ -30,11 +43,27 @@
     "prop-types": "15.5.8",
     "ts-object-utils": "0.0.5"
   },
+  "deprecated": false,
+  "description": "阿里云点播组件的封装",
   "devDependencies": {
     "@types/lodash.debounce": "4.0.3",
     "@types/prop-types": "15.5.2",
     "@types/react": "16.4.7",
     "@types/react-native": "0.49.5"
   },
-  "homepage": "https://github.com/bozaigao/react-native-aliyun-playview#readme"
+  "homepage": "https://github.com/bozaigao/react-native-aliyun-playview#readme",
+  "keywords": [
+    "aliyun",
+    "video",
+    "native",
+    "react-native-aliyun-playview"
+  ],
+  "license": "MIT",
+  "main": "src/AliyunPlayView.js",
+  "name": "react-native-aliyun-playview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bozaigao/react-native-aliyun-playview.git"
+  },
+  "version": "1.0.2"
 }

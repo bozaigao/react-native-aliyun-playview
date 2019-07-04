@@ -32,10 +32,6 @@
 		741278BD22CAFAB900E47CDE /* AliyunPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayerView.m; sourceTree = "<group>"; };
 		741278BE22CAFAB900E47CDE /* AliyunPlayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliyunPlayManager.m; sourceTree = "<group>"; };
 		741278BF22CAFAB900E47CDE /* AliyunRecordModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliyunRecordModule.h; sourceTree = "<group>"; };
-		741278C422CAFC5300E47CDE /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliThirdparty.framework; path = AliyunSDK/AliThirdparty.framework; sourceTree = "<group>"; };
-		741278C522CAFC5300E47CDE /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunPlayerSDK.framework; path = AliyunSDK/AliyunPlayerSDK.framework; sourceTree = "<group>"; };
-		741278C622CAFC5300E47CDE /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerSDK.framework; path = AliyunSDK/AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
-		74D8BE0E22CC6A89008A338A /* VODUpload.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VODUpload.framework; path = AliyunSDK/VODUpload.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +78,6 @@
 		741278C322CAFC5300E47CDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74D8BE0E22CC6A89008A338A /* VODUpload.framework */,
-				741278C422CAFC5300E47CDE /* AliThirdparty.framework */,
-				741278C522CAFC5300E47CDE /* AliyunPlayerSDK.framework */,
-				741278C622CAFC5300E47CDE /* AliyunVodPlayerSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -287,6 +279,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../../ios/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/AliyunSDK/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,6 +308,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(SRCROOT)/../../ios/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/AliyunSDK/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

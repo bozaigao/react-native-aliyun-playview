@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+	package
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:1-2:44
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		ADDED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser/node_modules/react-native-aliyun-playview/android/src/main/AndroidManifest.xml
