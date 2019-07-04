@@ -143,5 +143,5 @@ AliyunRecordModulerEmitter.addListener('getUploadState', (data: { code: number; 
 
 ![视频播放效果图](./iOS效果图.png)
 
-友情链接短视频前后摄像头交叉续拍组件[react-native-camera-continued-shooting](https://github.com/bozaigao/react-native-camera-continued-shooting)
+相关链接短视频前后摄像头交叉续拍组件[react-native-camera-continued-shooting](https://github.com/bozaigao/react-native-camera-continued-shooting)
 
