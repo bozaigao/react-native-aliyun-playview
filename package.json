@@ -1,6 +1,6 @@
 {
   "name": "react-native-aliyun-playview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "阿里云点播组件的封装",
   "main": "src/AliyunPlayView.js",
   "repository": {
