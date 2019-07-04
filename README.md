@@ -17,10 +17,10 @@ repositories {
 ```
 #### iOS端额外配置
 选中项目TARGETS=>Embedded Binaries将react-native-aliyun-playview/ios/AliyunSDK目录中的AliThirdparty.framework、AliyunPlayerSDK.framework、AliyunVodPlayerSDK.framework
-动态库文件拖入其中，将AliyunLanguageSource.bundle资源包拖入Build Phases=>Copy Bundle Resources中,然后将AliThirdparty.framework、AliyunPlayerSDK.framework、AliyunVodPlayerSDK.framework
-同时拖入Pods=>Frameworks=>iOS目录下，不执行该操作，pod依赖里面的react-native-aliyun-playview会提示找不到相关文件，最后进入项目ios目录执行pod install命令完成所有依赖.
+动态库文件拖入其中，将AliyunLanguageSource.bundle资源包拖入Build Phases=>Copy Bundle Resources中,然后最后进入项目ios目录执行pod install命令完成所有依赖,关闭Xcode，重新打开项目,
+将AliThirdparty.framework、AliyunPlayerSDK.framework、AliyunVodPlayerSDK.framework同时拖入Pods=>Frameworks=>iOS目录下，不执行该操作，pod依赖里面的react-native-aliyun-playview会提示找不到相关文件，.
 
-![iOS配置1](./iOS_step1.jpeg)   ![iOS配置2](./iOS_step2.jpeg)   ![iOS配置3](./iOS_step3.jpeg)
+![iOS配置1](./iOS_step1.jpeg)   ![iOS配置2](./iOS_step2.jpeg)   ![iOS配置3](./iOS_step3.jpeg)    ![iOS配置4](./iOS_step4.jpeg)
 
 ### 视频播放使用方法
 先通过接口以STS的形式返回securityToken然后打开开关showAliyunPlayView对视频组件进行渲染.
