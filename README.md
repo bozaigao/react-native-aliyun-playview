@@ -1,5 +1,5 @@
 # react-native-aliyun-playview
-封装阿里云点播播放器与短视频上传功能，支持视频播放过程中stop()、pause()、resume()、reset()、rePlay()、seekToTime()等Api调用.
+封装阿里云视频点播播放器与短视频上传功能，支持视频播放过程中stop()、pause()、resume()、reset()、rePlay()、seekToTime()等Api调用.
 
 ### 安装方法
 执行npm i react-native-aliyun-playview --save安装组件
@@ -86,7 +86,7 @@ import AliyunPlayView from 'react-native-aliyun-playview';
                         ) : null}
 ```
 ```javascript
-//阿里云点播事件枚举状态
+//阿里云视频点播事件枚举状态
 export enum AliYunVideoEventType {
     AliyunVodPlayerEventPrepareDone,
     AliyunVodPlayerEventPlay,
@@ -122,7 +122,7 @@ export enum AliYunVideoEventType {
 ```
 ```javascript
 const {AliyunRecordModule} = NativeModules;
-//阿里云点播视频上传模块
+//阿里云视频点播视频上传模块
 const AliyunRecordModulerEmitter = new NativeEventEmitter(AliyunRecordModule);
 
 AliyunRecordModulerEmitter.addListener('getUploadState', (data: { code: number; message: string; vid: string; type: string }) => {
