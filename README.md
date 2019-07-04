@@ -18,8 +18,6 @@ repositories {
 #### iOS端额外配置
 直接进入ios目录执行pod install然后关闭Xcode重新打开项目完成所有依赖.
 
-![iOS配置1](./iOS_step1.jpeg)   ![iOS配置2](./iOS_step2.jpeg)   ![iOS配置3](./iOS_step3.jpeg)    ![iOS配置4](./iOS_step4.jpeg)
-
 ### 视频播放使用方法
 先通过接口以STS的形式返回securityToken然后打开开关showAliyunPlayView对视频组件进行渲染.
 ```javascript
