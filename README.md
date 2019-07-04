@@ -3,6 +3,7 @@
 
 ### 安装方法
 执行npm i react-native-aliyun-playview --save安装组件
+
 react-native link react-native-aliyun-playview链接Android和iOS原生模块
 #### Android端额外配置
 在项目app build.gradle做以下配置,然后clean build运行
