@@ -17,7 +17,7 @@ repositories {
 ```
 #### iOS端额外配置
 选中项目TARGETS=>Embedded Binaries将react-native-aliyun-playview/ios/AliyunSDK目录中的AliThirdparty.framework、AliyunPlayerSDK.framework、AliyunVodPlayerSDK.framework
-动态库文件拖入其中，将AliyunLanguageSource.bundle资源包拖入Build Phases=>Copy Bundle Resources中,然后最后进入项目ios目录执行pod install命令完成所有依赖,关闭Xcode，重新打开项目,
+动态库文件拖入其中，将AliyunLanguageSource.bundle资源包拖入Build Phases=>Copy Bundle Resources中,然后进入项目ios目录执行pod install命令完成所有依赖,关闭Xcode，重新打开项目,
 将AliThirdparty.framework、AliyunPlayerSDK.framework、AliyunVodPlayerSDK.framework同时拖入Pods=>Frameworks=>iOS目录下，默认弹窗勾选的是第一个，一定要勾选到react-native-aliyun-playview组件上
 不执行该操作，pod依赖里面的react-native-aliyun-playview会提示找不到相关文件.
 
