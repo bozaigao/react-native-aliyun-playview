@@ -10,11 +10,6 @@
 		741278C022CAFAB900E47CDE /* AliyunRecordModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 741278BA22CAFAB900E47CDE /* AliyunRecordModule.m */; };
 		741278C122CAFAB900E47CDE /* AliyunPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 741278BD22CAFAB900E47CDE /* AliyunPlayerView.m */; };
 		741278C222CAFAB900E47CDE /* AliyunPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 741278BE22CAFAB900E47CDE /* AliyunPlayManager.m */; };
-		741278C722CAFC5300E47CDE /* AliThirdparty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741278C422CAFC5300E47CDE /* AliThirdparty.framework */; };
-		741278C822CAFC5300E47CDE /* AliyunPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741278C522CAFC5300E47CDE /* AliyunPlayerSDK.framework */; };
-		741278C922CAFC5300E47CDE /* AliyunVodPlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741278C622CAFC5300E47CDE /* AliyunVodPlayerSDK.framework */; };
-		741278CB22CAFC6100E47CDE /* AliyunLanguageSource.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 741278CA22CAFC6100E47CDE /* AliyunLanguageSource.bundle */; };
-		74D8BE0F22CC6A89008A338A /* VODUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D8BE0E22CC6A89008A338A /* VODUpload.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +19,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				741278CB22CAFC6100E47CDE /* AliyunLanguageSource.bundle in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +35,6 @@
 		741278C422CAFC5300E47CDE /* AliThirdparty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliThirdparty.framework; path = AliyunSDK/AliThirdparty.framework; sourceTree = "<group>"; };
 		741278C522CAFC5300E47CDE /* AliyunPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunPlayerSDK.framework; path = AliyunSDK/AliyunPlayerSDK.framework; sourceTree = "<group>"; };
 		741278C622CAFC5300E47CDE /* AliyunVodPlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AliyunVodPlayerSDK.framework; path = AliyunSDK/AliyunVodPlayerSDK.framework; sourceTree = "<group>"; };
-		741278CA22CAFC6100E47CDE /* AliyunLanguageSource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AliyunLanguageSource.bundle; path = AliyunSDK/AliyunLanguageSource.bundle; sourceTree = "<group>"; };
 		74D8BE0E22CC6A89008A338A /* VODUpload.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VODUpload.framework; path = AliyunSDK/VODUpload.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,10 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74D8BE0F22CC6A89008A338A /* VODUpload.framework in Frameworks */,
-				741278C722CAFC5300E47CDE /* AliThirdparty.framework in Frameworks */,
-				741278C822CAFC5300E47CDE /* AliyunPlayerSDK.framework in Frameworks */,
-				741278C922CAFC5300E47CDE /* AliyunVodPlayerSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +52,6 @@
 		741278A522CAFA6C00E47CDE = {
 			isa = PBXGroup;
 			children = (
-				741278CA22CAFC6100E47CDE /* AliyunLanguageSource.bundle */,
 				741278B022CAFA6C00E47CDE /* AliyunPlayView */,
 				741278AF22CAFA6C00E47CDE /* Products */,
 				741278C322CAFC5300E47CDE /* Frameworks */,

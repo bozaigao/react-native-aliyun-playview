@@ -1,13 +1,12 @@
 package com.example.aliyunplayview;
 
+import android.annotation.TargetApi;
 import android.media.MediaCodec;
 import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.media.MediaMuxer;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.Log;
-
 import com.alibaba.sdk.android.vod.upload.VODSVideoUploadCallback;
 import com.alibaba.sdk.android.vod.upload.VODSVideoUploadClient;
 import com.alibaba.sdk.android.vod.upload.VODSVideoUploadClientImpl;
@@ -27,7 +26,6 @@ import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 import com.google.gson.Gson;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -209,7 +207,7 @@ public class AliyunRecordModule extends ReactContextBaseJavaModule {
      * @date 2019/6/3
      * @function: 将多个小视频拼接为一个视频
      */
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
     @ReactMethod
     public void mergeVideoToOneVideo(ReadableMap params, Callback successCallback) {
         final ArrayList videoPaths = (params.getArray("videoPaths")).toArrayList();
@@ -225,7 +223,7 @@ public class AliyunRecordModule extends ReactContextBaseJavaModule {
      * @date 2019-06-18
      * @function: 矫正视频角度
      */
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
     private String fixDegree(ArrayList videoPaths, boolean isFront) {
         String mOutFilename = "";
         MediaMuxer mMuxer = null;
